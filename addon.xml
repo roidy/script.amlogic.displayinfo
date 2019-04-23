@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.amlogic.displayinfo" name="CoreELEC Display Info" version="0.1" provider-name="roidy">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-    <summary lang="en_GB">Gets display info from Amlogic hardware.</summary>
-    <disclaimer lang="en_GB">Use at your own risk</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>Mit</license>
-    <source>https://github.com/roidy/script.amlogic.displayinfo/</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>CoreELEC Display Info</summary>
+        <description>A script for showing display and video information during playback.</description>
+        <disclaimer>Use at your own risk. No guarantee that this addon works as expected.</disclaimer>
+        <platform>linux</platform>
+        <license>MIT</license>
+        <source>https://github.com/roidy/script.amlogic.displayinfo</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+    </extension>
 </addon>
